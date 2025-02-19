@@ -23,14 +23,12 @@ public class Main {
         }
         System.out.print(arr3[0]);
         System.out.println();
-        for (int i = arr.length - 1; i < arr.length; i++) {
+        for (int i =0; i < arr.length; i++) {
             if (arr[i] % 2 != 0) {
                 arr[i]++;
-                arr[0]++;
             }
-
-            System.out.println(Arrays.toString(arr));
         }
+        System.out.println(Arrays.toString(arr));
 
     }
 }
